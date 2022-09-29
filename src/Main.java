@@ -9,7 +9,7 @@ public class Main {
         numbersArr[1] = 2;
         numbersArr[2] = 3;
 
-        double[] arrayFN = {1.57, 7.654, 9.986};
+        double[] arrayFn = {1.57, 7.654, 9.986};
 
         char[] arraySimbol = {'a', 'b', 'c', 'd', 'e'};
 
@@ -21,9 +21,9 @@ public class Main {
             }
         }
         System.out.println();
-        for (int i = 0; i < arrayFN.length; i++) {
-            System.out.print(arrayFN[i]);
-            if (i != arrayFN.length - 1) {
+        for (int i = 0; i < arrayFn.length; i++) {
+            System.out.print(arrayFn[i]);
+            if (i != arrayFn.length - 1) {
                 System.out.print(", ");
             }
         }
@@ -42,9 +42,9 @@ public class Main {
             }
         }
         System.out.println();
-        for (int i = arrayFN.length - 1; i >= 0; i--) {
+        for (int i = arrayFn.length - 1; i >= 0; i--) {
             System.out.print(
-                    arrayFN[i]);
+                    arrayFn[i]);
             if (i != 0) {
                 System.out.print(", ");
             }
